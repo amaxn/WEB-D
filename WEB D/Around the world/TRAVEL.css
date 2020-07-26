@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+	animation: day2night 15s linear infinite;
+}
+.globe{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:720px;
+	height:720px;
+	animation: animate 25s linear infinite;
+}
+.gif{
+	width:50%;
+	height:2px;
+	background:transparent;
+	position: absolute;
+	top:calc(50% - 37px);
+	transform-origin: right;
+	animation: animateGif 10s linear infinite;
+}
+.gif img{
+	transform: rotate(-120deg) translateY(1px);
+}
+@keyframes animate{
+	0%
+	{
+		transform: translate(-50%,-50%) rotate(0deg) scale(.8);
+	}
+	100%
+	{
+		transform: translate(-50%,-50%) rotate(-360deg) scale(.8);
+	}
+}
+@keyframes animateGif{
+	0%
+	{
+		transform:rotate(0deg) scale(.9);
+	}
+	100%
+	{
+		transform:rotate(360deg) scale(.9);
+	}
+}
+@keyframes day2night{
+	0%
+	{
+		background:#fff;
+	}
+	10%
+	{
+		background:#fff;
+	}
+	50%
+	{
+		background: #102230;
+	}
+	90%
+	{
+		background: #fff;
+	}
+	100%
+	{
+		background:#fff;
+	}
+}

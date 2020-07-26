@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exam Registration Forms</title>
+	<link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+<body>
+<h1>Exam Registration Forms</h1>
+<p>Clearly fill the form below and ensure to indicate the coursesregistered for.</p>
+<form>
+	<div>
+	<label for="name">
+		<strong>Student Name</strong><strong class="red">*</strong>
+			<input id="name"type="text" name="first"required>
+			<input id="name" type="text" name="last"required>
+	</label>
+	<p class="space">First Name <span>Last Name</span></p>
+</div>
+<p>
+	<label for="reg">
+		<strong>Student Registration Number</strong><strong class="red">*</strong>
+		<input type="text" name="reg.no." id="reg" required>
+	</label>
+</p>
+<p>
+	<label>
+		<strong>Registered Course</strong><strong class="red">*</strong>
+		<input type="text" name="course"required>
+	</label>
+</p>
+<p>
+	<label>
+		<strong>Exam Start</strong><strong class="red">*</strong>
+		<select name="date">
+			<option></option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		</select>
+		<select name="month">
+			<option></option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+		</select>
+		<select name="year">
+			<option></option>
+			<option>1998</option>
+			<option>1999</option>
+			<option>2000</option>
+			<option>2001</option>
+		</select>
+	</label>
+</p>
+<p>
+    <label>
+		<strong>Exam End</strong><strong class="red">*</strong>
+		<select name="date">
+			<option></option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		</select>
+		<select name="month">
+			<option></option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+		</select>
+		<select name="year">
+			<option></option>
+			<option>1998</option>
+			<option>1999</option>
+			<option>2000</option>
+			<option>2001</option>
+		</select>
+	</label>
+</p>
+	<label>
+		<strong id="special">Comment</strong>
+		<textarea cols="50"rows="15"></textarea>
+	</label>
+	<p><input type="Submit"></p>
+</form>
+</body>
+</html>
