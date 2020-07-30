@@ -73,7 +73,7 @@
 }
 /*Pricing*/
 
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans');
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans');
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -85,7 +85,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-} */
+} 
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -299,6 +299,7 @@ h3 {
   .menu a{
     display: block;
     padding: 20px;
+    color: #fff;
   }
   .hide-menu-btn{
     position: absolute;
@@ -429,7 +430,7 @@ div.border{
   width: 100%;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content div {
   color: black;
   padding: 12px 16px;
@@ -693,22 +694,22 @@ overflow: hidden;
 
 /* Link Styling */
 
-a:link {
+#utility-links a:link {
     color: #000;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
     font-weight: 500;
 }
 
-a:visited {
-    color: #000;
+#utility-links a:visited {
+    color: #666;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
     font-weight: 500;
 }
 
 
-a:hover {
+#utility-links a:hover {
     color: #0677FF;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
@@ -716,7 +717,7 @@ a:hover {
 }
 
 
-a:active {
+#utility-links a:active {
     color: #0677FF;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
@@ -729,7 +730,7 @@ a:active {
 
 /* =TABLET */
 
-@media all and (max-width: 1339px) and (min-width: 801px) {
+@media screen and (max-width: 1339px) and (min-width: 801px) {
 
 /* Footer Parent Div Styling */
 
@@ -959,22 +960,22 @@ input[type=button], input[type=submit], input[type=reset] {
 
 /* Link Styling */
 
-a:link {
+#utility-links a:link {
     color: #000;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
     font-weight: 500;
 }
 
-a:visited {
-    color: #fff;
+#utility-links a:visited {
+    color: #666;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
     font-weight: 500;
 }
 
 
-a:hover {
+#utility-links a:hover {
     color: #0677FF;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
@@ -982,7 +983,7 @@ a:hover {
 }
 
 
-a:active {
+#utility-links a:active {
     color: #0677FF;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
@@ -996,7 +997,7 @@ a:active {
 
 /* MOBILE */
 
-@media all and (max-width: 800px) and (min-width: 100px) {
+@media all and (max-width: 799px) and (min-width: 100px) {
 
   
 /* Footer Parent Div Styling */
@@ -1210,22 +1211,22 @@ input[type=button], input[type=submit], input[type=reset] {
 
 /* Link Styling */
 
-a:link {
+#utility-links a:link {
     color: #000;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
     font-weight: 500;
 }
 
-a:visited {
-    color: #000;
+#utility-links a:visited {
+    color: #666;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
     font-weight: 500;
 }
 
 
-a:hover {
+#utility-links a:hover {
     color: #0677FF;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
@@ -1233,7 +1234,7 @@ a:hover {
 }
 
 
-a:active {
+#utility-links a:active {
     color: #0677FF;
     text-decoration: none;
     font-family: Helvetica, Arial, Sans-Serif;
